@@ -11,6 +11,7 @@ body {
   padding: 0 15px;
   max-width: 1230px;
   margin: 0 auto;
+  background-color: red;
 }
 
 .header {
@@ -384,6 +385,7 @@ transform: rotate(-90deg);
 
 .section_3{
   margin-top:300px ;
+  margin-bottom: 150px;
 }
 
 
@@ -428,4 +430,30 @@ margin-top: 171px;
 margin-right: 80px;
 }
 
+.partners{
+  margin: 0 auto;
+  width: 1034px;
+  height: 437px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.patners-photo{
+  height: 272px;
+  width: 1034px;
+  background-color: black;
+}
+.contacts{
+  width: 1110px;
+  height: 355px;
+  background-color: green;
+  margin: 120px auto;
+}
+.contacts-title{
+  margin: 0 auto;
+  width: 385px;
+  height: 100px;
+}
 @import "media";
