@@ -11,7 +11,6 @@ body {
   padding: 0 15px;
   max-width: 1230px;
   margin: 0 auto;
-  background-color: red;
 }
 
 .header {
@@ -175,9 +174,8 @@ body {
   }
   &-prev {
     right: 20px;
-    bottom: 0;
+    bottom: -50px;
     margin-top: 280px;
-    margin-right: 50px;
     &::before {
       content: "СЛЕД";
       color: white;
@@ -374,6 +372,7 @@ transform: rotate(-90deg);
 .awards{
   width: 1110px;
   height: 550px;
+  margin: 0 auto;
   &__bg{
     position: relative;
   }
@@ -430,30 +429,171 @@ margin-top: 171px;
 margin-right: 80px;
 }
 
+
 .partners{
-  margin: 0 auto;
   width: 1034px;
   height: 437px;
-  background-color: white;
+  margin-top: 100px;
+  margin: 0 auto;
+}
+
+.partners__title{
+  font-family: $font1;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: white;
+}
+
+.partners__content-top{
+  max-width: 1034px;
+  height: 96px;
+  margin-top: 100px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: space-between;
 }
-.patners-photo{
-  height: 272px;
-  width: 1034px;
-  background-color: black;
+
+.partners__content-bottom{
+  max-width: 1034px;
+  height: 96px;
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
 }
-.contacts{
+
+.feedback{
+  margin: 0 auto;
   width: 1110px;
   height: 355px;
-  background-color: green;
-  margin: 120px auto;
+  position: relative;
+  margin-top: 100px;
 }
-.contacts-title{
-  margin: 0 auto;
-  width: 385px;
+
+.feedback__title{
+  font-family: $font1;
+font-weight: 300;
+font-size: 48px;
+line-height: 65px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: white;
+}
+
+.description{
+  width: 255px;
+  height: 143px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.description__contacts{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.description__contacts-item{
+  font-family: $font1;
+font-weight: bold;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: white;
+
+}
+
+.form{
+  width: 730px;
+  height: 190px;
+  position: absolute;
+  right: 0;
+  top: 155px;
+}
+
+.form__top-name,
+.form__top-company,
+.form__bottom-number,
+.form__bottom-mail{
+  width: 180px;
+  height: 35px;
+  padding: 5px 10px;
+  background: #444444;
+border: 1px solid #616161;
+box-sizing: border-box;
+color: white;
+ &::placeholder{
+  color: #989898;
+  font-family: $font2;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+ }
+}
+
+.form__top-company,
+.form__bottom-mail{
+  margin-left: 30px;
+}
+
+.form__bottom-number,
+.form__bottom-mail{
+  margin-top: 30px;
+}
+
+
+.form__message{
+  width: 310px;
   height: 100px;
+  padding: 5px 10px;
+  background: #444444;
+border: 1px solid #616161;
+box-sizing: border-box;
+color: white;
+position: absolute;
+right: 0;
+top: 0;
+ &::placeholder{
+  color: #989898;
+  font-family: $font2;
+font-weight: 600;
+font-size: 12px;
+line-height: 150%;
+padding-bottom: 50px;
+ }
+}
+
+
+.form__btn{
+  width: 190px;
+height: 50px;
+background: #D1A954;
+font-family: $font1;
+font-weight: bold;
+font-size: 18px;
+line-height: 25px;
+text-align: center;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: white;
+position: absolute;
+right: 0;
+margin-top: 40px;
+}
+
+.form__notation{
+  width: 390px;
+height: 50px;
+font-family: Open Sans;
+font-size: 12px;
+line-height: 150%;
+color: #989898;
+margin-top: 40px;
 }
 @import "media";
