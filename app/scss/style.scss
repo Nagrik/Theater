@@ -3,8 +3,19 @@
 @import "fonts";
 @import "nullstyle.scss";
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   background: #333333;
+}
+
+a{
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  color: white;
 }
 
 .container {
@@ -158,10 +169,10 @@ body {
     top: 50%;
   }
   &-next {
-    left: 20px;
+    left: 0;
     bottom: 0;
     margin-top: 280px;
-    margin-left: 50px;
+    margin-left: 40px;
     &::after {
       content: "ПРЕД";
       color: white;
@@ -345,29 +356,22 @@ transform: rotate(-90deg);
 
 .passive{
   opacity: 0.6;
-  
   &__search{
-    width: 100px;
-    height: 100px;
+    width: 442px;
+    height: 550px;
     position: absolute;
-    top: 40%;
-    margin-left: 172px;
+    top: 0;
+    display: block;
+    opacity: 0;
+    padding-top: 50%;
+    padding-left: 40%;
   }
 }
 
-.passive__search:hover{
-  .passive{
-    opacity: 0.1;
-  }
-}
-
-
-
+.passive__search:hover,
 .passive:hover{
   opacity: 1;
 }
-
-
 
 .awards{
   width: 1110px;
