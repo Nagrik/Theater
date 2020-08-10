@@ -25,9 +25,11 @@ a{
 }
 
 .header {
-  background: url(../images/main-background.png);
+  background: url(../images/_DSC0526.jpg);
   height: 100vh;
-  display: flex;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -200px;
 }
 
 .info {
@@ -110,7 +112,7 @@ a{
   margin-top: 191px;
   &-preview {
     width: 540px;
-    height: 296px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -118,24 +120,24 @@ a{
     &__title {
       font-family: $font1;
       font-weight: bold;
-      font-size: 64px;
+      font-size: 62px;
       line-height: 87px;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: white;
+      color: rgb(253, 228, 228);
       margin: 0px;
+
     }
     &__text {
-      font-size: 14px;
+      font-size: 16px;
       line-height: 150%;
       color: white;
       font-family: $font2;
-      width: 540px;
-      height: 79px;
+      
     }
     &__button {
       width: 160px;
-      height: 50px;
+      padding: 15px;
       background: #d1a954;
       font-family: $font1;
       font-weight: bold;
@@ -147,6 +149,20 @@ a{
       color: white;
     }
   }
+}
+
+.main-title--1{
+  text-shadow: 1px 3px 3px red;
+}
+
+.main-title--2{
+margin-left: 98px;
+text-shadow: 1px 3px 3px red;
+}
+
+.main-title--3{
+  margin-left: 184px;
+  text-shadow: 1px 3px 3px red;
 }
 
 .slider__item {
