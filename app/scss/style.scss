@@ -310,7 +310,7 @@ text-shadow: 1px 3px 3px red;
 
 .Staging{
   width: 1770px;
-  height: 515px;
+
   margin-left: 129px;
 }
 
@@ -392,9 +392,10 @@ transform: rotate(-90deg);
 .awards{
   width: 1110px;
   height: 550px;
-  margin: 0 auto;
+  margin: 120px auto;
   &__bg{
     position: relative;
+    top: 150px;
   }
 }
 
@@ -452,9 +453,8 @@ margin-right: 80px;
 
 .partners{
   width: 1034px;
-  height: 437px;
-  margin-top: 100px;
-  margin: 0 auto;
+  padding-top: 150px;
+  margin: 150px auto;
 }
 
 .partners__title{
