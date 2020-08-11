@@ -19,9 +19,10 @@ a{
 }
 
 .container {
-  padding: 0 15px;
+  padding: 15px 15px;
   max-width: 1230px;
   margin: 0 auto;
+
 }
 
 .header {
@@ -72,12 +73,16 @@ a{
     }
   }
 }
+.navigation{
+    width: 824px;
+  }
 .top-line {
-  width: 1230px;
+width: 100%;
+  max-width: 1200px;
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-
+  
   &__phone {
     font-family: $font1;
     font-weight: bold;
@@ -87,11 +92,11 @@ a{
     text-transform: uppercase;
     color: #ffffff;
     border-bottom: 2px solid #d1a954;
-    right: 0;
+
   }
 }
 .menu {
-  width: 850px;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   &-item {
@@ -225,6 +230,7 @@ text-shadow: 1px 3px 3px red;
   height: 757px;
   background: #333333;
   padding-top: 150px;
+  margin: 0 auto;
 }
 
 .about-title {
@@ -310,12 +316,14 @@ text-shadow: 1px 3px 3px red;
 
 .Staging{
   width: 1770px;
-  height: 515px;
+
   margin-left: 129px;
 }
 
 .Staging-title{
-  font-family: Open Sans Condensed;
+  font-family: $font1;
+ 
+ 
 font-weight: 300;
 font-size: 48px;
 line-height: 65px;
@@ -392,9 +400,10 @@ transform: rotate(-90deg);
 .awards{
   width: 1110px;
   height: 550px;
-  margin: 0 auto;
+  margin: 120px auto;
   &__bg{
     position: relative;
+    top: 150px;
   }
 }
 
@@ -402,10 +411,7 @@ transform: rotate(-90deg);
   opacity: 0.4;
 }
 
-.section_3{
-  margin-top:300px ;
-  margin-bottom: 150px;
-}
+
 
 
 .awards__years{
@@ -452,9 +458,8 @@ margin-right: 80px;
 
 .partners{
   width: 1034px;
-  height: 437px;
-  margin-top: 100px;
-  margin: 0 auto;
+  padding-top: 150px;
+  margin: 150px auto;
 }
 
 .partners__title{
@@ -616,4 +621,5 @@ line-height: 150%;
 color: #989898;
 margin-top: 40px;
 }
+
 @import "media";
