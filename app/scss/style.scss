@@ -460,18 +460,19 @@ margin-right: 80px;
   width: 1034px;
   padding-top: 150px;
   margin: 150px auto;
+  &__title{
+    font-family: $font1;
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: white;
+  }
 }
 
-.partners__title{
-  font-family: $font1;
-font-weight: 300;
-font-size: 48px;
-line-height: 65px;
-text-align: center;
-letter-spacing: 0.1em;
-text-transform: uppercase;
-color: white;
-}
+
 
 .partners__content-top{
   max-width: 1034px;
